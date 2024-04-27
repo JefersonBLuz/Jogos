@@ -9,11 +9,11 @@ int new, scenario, mistakes, correct, number;
 char matrix[HEIGHT][WIDTH];
 char word[99], correctword = 0;
 char *wordsused[10][3] = {                                                                  /*10 palvras, palavra/dica/letras*/
-                          {"oculus", "Para usar tem que abrir as pernas", 6},               // 0
-                          {"vidro", "Composto pela areia em alta temperatura", 5},          // 1
+                          {"oculos", "Para usar tem que abrir as pernas", 6},               // 0
+                          {"vidro", "Feito pela areia em alta temperatura", 5},          // 1
                           {"oxigenio", "Componente da água que tem 6 eletrons", 8},         // 2
-                          {"pangeia", "Continente que era banhado por um uncio oceano", 7}, // 3
-                          {"borboleta", "Transformação do lagarta", 9},                     // 4
+                          {"pangeia", "Continente que era banhado por um unico oceano", 7}, // 3
+                          {"borboleta", "Transformação da lagarta", 9},                     // 4
                           {"caju", "Fruta que tem semente por fora", 4},                    // 5
                           {"acaraje", "Comida tipica da Bahia", 7},                         // 6
                           {"amendoin", "Comida tipica do São João", 8},                     // 7
